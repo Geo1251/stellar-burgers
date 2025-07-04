@@ -9,11 +9,11 @@ import {
   selectCurrentOrder,
   selectIsLoadingCurrentOrder,
   clearCurrentOrderState
-} from '../../services/slices/orderSlice';
+} from '../../services/slices/orderSlice/orderSlice';
 import {
   fetchIngredients,
   selectIngredients
-} from '../../services/slices/ingredientsSlice';
+} from '../../services/slices/ingredientsSlice/ingredientsSlice';
 
 export const OrderInfo: FC = () => {
   const dispatch = useDispatch();
