@@ -7,7 +7,7 @@ import { useSelector, useDispatch } from '../../services/store';
 import {
   selectIngredients,
   fetchIngredients
-} from '../../services/slices/ingredientsSlice';
+} from '../../services/slices/ingredientsSlice/ingredientsSlice';
 import { Preloader } from '@ui';
 
 const maxIngredients = 6;

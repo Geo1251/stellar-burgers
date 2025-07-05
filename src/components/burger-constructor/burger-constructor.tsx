@@ -2,13 +2,13 @@ import { FC, useMemo } from 'react';
 import { TConstructorIngredient, TIngredient } from '@utils-types';
 import { BurgerConstructorUI } from '@ui';
 import { useDispatch, useSelector } from '../../services/store';
-import { selectConstructorItems } from '../../services/slices/burgerConstructorSlice';
+import { selectConstructorItems } from '../../services/slices/burgerConstructorSlice/burgerConstructorSlice';
 import {
   createOrderThunk,
   clearOrderModalDataState,
   selectOrderRequest,
   selectOrderModalData
-} from '../../services/slices/orderSlice';
+} from '../../services/slices/orderSlice/orderSlice';
 import { useNavigate } from 'react-router-dom';
 import { selectUser } from '../../services/slices/userSlice';
 

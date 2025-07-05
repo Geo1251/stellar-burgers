@@ -51,6 +51,7 @@ export const AppHeaderUI: FC<TAppHeaderUIProps> = ({ userName }) => (
         className={({ isActive }) =>
           `text text_type_main-default ${styles.link} ${styles.link_position_last} ${isActive ? styles.link_active : ''}`
         }
+        data-cy='profile-link'
       >
         {({ isActive }) => (
           <>

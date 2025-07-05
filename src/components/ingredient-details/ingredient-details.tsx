@@ -6,7 +6,7 @@ import { useSelector, useDispatch } from '../../services/store';
 import {
   selectIngredients,
   fetchIngredients
-} from '../../services/slices/ingredientsSlice';
+} from '../../services/slices/ingredientsSlice/ingredientsSlice';
 import { TIngredient } from '@utils-types';
 
 export const IngredientDetails: FC = () => {
