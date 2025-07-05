@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk, PayloadAction } from '@reduxjs/toolkit';
-import { orderBurgerApi, getOrderByNumberApi } from '../../utils/burger-api';
+import { orderBurgerApi, getOrderByNumberApi } from '../../../utils/burger-api';
 import { TOrder } from '@utils-types';
-import { clearConstructor } from './burgerConstructorSlice';
+import { clearConstructor } from '../burgerConstructorSlice/burgerConstructorSlice';
 
 interface OrderState {
   orderRequest: boolean;
